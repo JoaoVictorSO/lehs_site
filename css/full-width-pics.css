@@ -1,0 +1,202 @@
+/*!
+ * Start Bootstrap - Full Width Pics (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+  }
+}
+/*navbar*/
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+}
+/*bg*/
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 30vh;
+  background-position: center;
+}
+/*content*/
+.py-5 h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	color: inherit;
+	font-weight: 200;
+    line-height: 1.2;
+    width: 250px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid orange;
+    text-align: center;
+    color: #444;
+    margin: auto;
+}
+.py-5 p {
+	padding-bottom: 20px;
+}
+.service-box h3 {
+	font-size: 23px;
+}
+.service-box p {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	transform: translateY(-5px);
+}
+/*content-2*/
+.content-2 {
+	background-color: #f8f9fa!important;
+	margin-top: 100px;
+}
+.s2 {
+	margin-top: 20px;
+	padding-bottom: 50px;
+}
+.img {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	margin-bottom: 30px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: top;
+	filter: grayscale(40%);
+	transition: all .5s;
+	cursor: pointer;
+}
+.img:hover {
+	filter: grayscale(0%);
+}
+.card-header {
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	margin-bottom: 0px;
+	background-size: cover;
+	background-position: top;
+	filter: grayscale(40%);
+	transition: all .5s;
+	cursor: pointer;
+}
+.card-header:hover {
+	filter: brightness(70%);
+}
+.card-body {
+	height: 100px;
+	width: 100%;
+	margin: auto;
+	background-color: #f8f9fa!important;
+}
+.card-body p {
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+}
+a {
+	color: #063E5F;
+}
+.dbs p {
+	margin-top: 10px;
+}
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.050);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.3);
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border: none;
+    background-color: #f8f9fa!important;
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.txtB{
+	color: rgb(200,200,200);
+	text-align: left;
+	word-spacing: 2px;
+}
+
+.texto-just{
+	text-align: justify;
+	font-size: large;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+footer{
+	margin-bottom: -10px;
+}
+
+.imgFooter{
+	width: 180px;
+	margin-top: 2px;
+}
+
+.imgFooter1{
+	width: 180px;
+	margin-bottom: 4px;
+	margin-top: -15px;
+}
+
+.pfq{
+	font-size: 1.2vw;
+}
+
+.linklattes:link{
+	text-decoration: none;
+}
+
+.btn-secondary{
+	background-color: rgba(68, 68, 68);
+	width: 100%;
+	height: 50px;
+}
+.btn-secondary:hover{
+	background-color: rgba(68, 68, 68, 0.9)
+}
+
+.ck1{
+	transform: translateY(8px)
+}
